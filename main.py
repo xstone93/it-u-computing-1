@@ -7,8 +7,9 @@ def subtract(a, b):
 def mult(a, b):
     return a * b
 
-def divide(a, b):
-    return a / b
+def dev(a, b):
+    if(b != 0):
+        return a / b
 
 print("Welcome to my calculator!")
 
